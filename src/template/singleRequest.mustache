@@ -1,0 +1,8 @@
+public HttpResponse userSetPwd(String pwd) {
+    RequestData requestData = new RequestData();
+    requestData.setApi("{{api}}");
+    requestData.setMethod("{{method}}");
+    {{body}}
+    ApiTemplate template = new ApiTemplate(requestData);
+    return runner.send(template);
+}
