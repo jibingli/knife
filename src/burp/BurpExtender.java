@@ -46,8 +46,8 @@ public class BurpExtender extends GUI implements IBurpExtender, IContextMenuFact
         this.stderr = new PrintWriter(callbacks.getStderr(), true);
         callbacks.setExtensionName(this.ExtensionName);
         callbacks.registerContextMenuFactory(this);// for menus
-        callbacks.registerMessageEditorTabFactory(this);// for U2C
-        callbacks.addSuiteTab(BurpExtender.this);
+//        callbacks.registerMessageEditorTabFactory(this);// for U2C
+//        callbacks.addSuiteTab(BurpExtender.this);
         callbacks.registerHttpListener(this);
         callbacks.registerProxyListener(this);
 

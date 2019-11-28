@@ -50,8 +50,8 @@ public class GUI extends JFrame {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	public String ExtensionName = "Knife v1.1 by bit4woo";
-	public String github = "https://github.com/bit4woo/knife";
+	public String ExtensionName = "Http Api test Extensions";
+	public String github = "https://github.com/jibing/burpApiExtensions";
 
 	public Config config = new Config("default");
 
